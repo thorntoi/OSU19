@@ -19,7 +19,7 @@ public:
     Ant();
     
     //destructor
-    ~Ant();
+    virtual ~Ant();
     
     virtual void move(int rowPos, int colPos);
     virtual void breed();

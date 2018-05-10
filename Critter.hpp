@@ -47,7 +47,7 @@ public:
 	virtual void breed(Critter ***) = 0;
 
 	//destructor
-	~Critter();//
+	virtual ~Critter();//
 	
 };
 

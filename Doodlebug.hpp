@@ -19,7 +19,7 @@ public:
     Doodlebug();
     
     //destructor
-    ~Doodlebug();
+    virtual ~Doodlebug();
     
     //mutators
     virtual void move(int rowPos, int colPos);
