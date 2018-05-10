@@ -1,2 +1,4 @@
 *.o
 output
+CMakeLists.txt
+main.cpp
