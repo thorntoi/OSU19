@@ -1,2 +1,6 @@
+cmake*
 *.o
 output
+.idea
+CMakeLists.txt
+main.cpp
