@@ -17,7 +17,7 @@ int Critter::getCol() {
 	return colPosition;
 }
 int Critter::getStepCnt() {
-	return step++;
+	return step;
 }
 bool Critter::getMove() {
 	return move;

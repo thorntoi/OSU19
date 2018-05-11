@@ -18,8 +18,6 @@ enum direction
 class Critter {
 private:
 	char species;	// ant =='O' or doodlebug =='X'
-
-protected:
 	int rowPosition;
 	int colPosition;
 	int step;			//number of moves ant/doodlebug surives
@@ -32,7 +30,6 @@ public:
 	int getCol();
 	int getStepCnt();		//tracks number of turns survived
 	bool getMove();
-	
 	void setCoord(int, int);	//may or may not need for setting coordinates
 
 	void setRow(int);
